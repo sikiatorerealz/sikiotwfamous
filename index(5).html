@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#061321">
+<meta name="description" content="SIKI STORE — layanan joki rank Mobile Legends dengan pemesanan jelas, harga transparan, dan dukungan admin.">
+<title>SIKI STORE | Joki MLBB Profesional</title>
+<style>
+:root{--bg:#04101d;--panel:#081b2d;--panel2:#0b2440;--blue:#159dff;--cyan:#57d5ff;--gold:#f4c66a;--text:#f3f8ff;--muted:#a9bfd3;--line:#174365;--green:#22c875}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 75% 0%,#0b2c4d 0,transparent 40%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}.nav{position:sticky;top:0;z-index:10;background:#04101ded;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.navin{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.5px}.logo{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(145deg,var(--cyan),var(--blue));color:#031321;font-weight:1000;font-size:24px;box-shadow:0 0 24px #159dff44}.brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:2px}.links{display:flex;gap:22px;align-items:center;font-size:13px;color:#d9e9f7}.links a:hover{color:var(--cyan)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:12px;background:linear-gradient(110deg,#0785f7,#20baff);color:white;font-weight:800;border:1px solid #55c9ff66;box-shadow:0 8px 24px #008cff22;cursor:pointer}.btn:hover{filter:brightness(1.1);transform:translateY(-1px)}.btn.secondary{background:transparent;border:1px solid var(--line);box-shadow:none}.hero{padding:68px 0 56px;overflow:hidden}.heroGrid{display:grid;grid-template-columns:1.2fr .8fr;gap:34px;align-items:center}.eyebrow{color:var(--cyan);font-size:12px;font-weight:900;letter-spacing:3px;text-transform:uppercase}.hero h1{font-size:clamp(38px,6vw,68px);line-height:1.02;letter-spacing:-2px;margin:12px 0 18px}.hero h1 span{background:linear-gradient(90deg,#fff,#53caff 65%,#168cff);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{color:var(--muted);max-width:620px;font-size:16px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}.trust{display:flex;gap:18px;flex-wrap:wrap;color:#c8e1f5;font-size:12px}.trust span{border:1px solid var(--line);padding:8px 11px;border-radius:9px;background:#071a2b}.heroCard{padding:28px;border:1px solid #1b5a82;border-radius:24px;background:linear-gradient(145deg,#0d3151,#061422 75%);box-shadow:0 18px 60px #0006;position:relative}.heroCard:before{content:"SIKI";position:absolute;right:12px;top:0;font-size:88px;font-weight:1000;color:#fff06;letter-spacing:-5px}.heroCard h2{font-size:22px;margin:0 0 10px}.heroCard p{color:var(--muted);font-size:14px}.heroStat{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}.stat{padding:14px;border-radius:13px;background:#061727;border:1px solid var(--line)}.stat strong{display:block;color:var(--cyan);font-size:20px}.stat small{color:var(--muted)}section{padding:30px 0}.sectionHead{margin-bottom:20px}.sectionHead .eyebrow{letter-spacing:2px}.sectionHead h2{font-size:28px;margin:5px 0}.sectionHead p{margin:0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:linear-gradient(150deg,#0a2034,#061523);border:1px solid var(--line);border-radius:17px;padding:21px;transition:.2s}.card:hover{border-color:#239ce0;transform:translateY(-3px)}.cardIcon{width:46px;height:46px;display:grid;place-items:center;border-radius:13px;background:#0d3657;color:var(--cyan);font-size:22px;margin-bottom:12px}.card h3{margin:0 0 6px;font-size:17px}.card p{margin:0;color:var(--muted);font-size:13px}.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.priceCard{padding:22px;border-radius:18px;background:linear-gradient(155deg,#0b2741,#061421);border:1px solid var(--line)}.priceCard.featured{border-color:#248fd4;box-shadow:0 0 28px #0785f71a}.rank{font-weight:900;font-size:20px}.price{font-size:24px;font-weight:900;color:var(--gold);margin:12px 0 2px}.sub{font-size:12px;color:var(--muted)}.pill{display:inline-block;border:1px solid #23557a;border-radius:99px;padding:4px 9px;color:var(--cyan);font-size:11px;margin-top:8px}.note{border-left:3px solid var(--cyan);padding:12px 15px;background:#082039;border-radius:0 10px 10px 0;color:#c4d9eb;font-size:13px;margin-top:16px}.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;counter-reset:step}.step{padding:18px 15px;border-radius:15px;background:#071a2a;border:1px solid var(--line);counter-increment:step}.step:before{content:counter(step,decimal-leading-zero);display:block;font-size:24px;font-weight:900;color:var(--cyan);margin-bottom:8px}.step h3{font-size:14px;margin:0 0 5px}.step p{font-size:12px;color:var(--muted);margin:0}.payGrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.payList{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.payItem{padding:13px;background:#071a2a;border:1px solid var(--line);border-radius:12px;font-weight:750}.payItem small{display:block;color:var(--muted);font-weight:400;font-size:11px}.rules{counter-reset:rule;display:grid;grid-template-columns:1fr 1fr;gap:10px}.rule{display:flex;gap:12px;padding:13px;background:#071a2a;border:1px solid var(--line);border-radius:12px;color:#d6e6f3;font-size:13px}.rule b{color:var(--cyan);min-width:22px}.orderGrid{display:grid;grid-template-columns:.85fr 1.15fr;gap:18px}.contactPanel{background:linear-gradient(140deg,#0a2b49,#071624);border:1px solid #1a5b86;border-radius:18px;padding:24px}.contactPanel h3{margin-top:0}.contactPanel p{color:var(--muted);font-size:14px}.form{padding:24px;background:#071a2a;border:1px solid var(--line);border-radius:18px}.formGrid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:12px;color:#c9dced;font-weight:700}.field input,.field select,.field textarea{width:100%;padding:12px;border-radius:10px;border:1px solid #225070;background:#041321;color:white;font:inherit;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--cyan)}.field textarea{min-height:85px;resize:vertical}.form .btn{width:100%;margin-top:15px}.tiny{font-size:11px;color:var(--muted)}footer{margin-top:40px;border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:12px}.footin{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.mobileMenu{display:none}
+@media(max-width:800px){.links{display:none}.hero{padding-top:42px}.heroGrid,.payGrid,.orderGrid{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.pricing{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.steps .step:last-child{grid-column:1/-1}.heroCard{max-width:600px}.rules{grid-template-columns:1fr}}
+@media(max-width:520px){.wrap{width:91%}.navin{min-height:64px}.nav .btn{padding:10px 12px;font-size:12px}.brand{font-size:14px}.logo{width:36px;height:36px}.hero h1{letter-spacing:-1px}.grid,.pricing,.formGrid{grid-template-columns:1fr}.field.full{grid-column:auto}.heroStat{grid-template-columns:1fr 1fr}.sectionHead h2{font-size:24px}.card{padding:17px}.payList{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap navin">
+    <a class="brand" href="#beranda"><span class="logo">S</span><span>SIKI STORE<small>JOKI MLBB PROFESSIONAL</small></span></a>
+    <nav class="links" aria-label="Navigasi utama">
+      <a href="#layanan">Layanan</a><a href="#harga">Harga</a><a href="#cara-order">Cara Order</a><a href="#pembayaran">Pembayaran</a><a href="#aturan">Aturan</a><a href="#kontak">Kontak</a>
+    </nav>
+    <a class="btn" href="https://wa.me/62895417261788" target="_blank" rel="noopener">Chat Admin ↗</a>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="beranda">
+  <div class="wrap heroGrid">
+    <div>
+      <div class="eyebrow">Top up rank, bukan sekadar game</div>
+      <h1>JOKI MLBB BY<br><span>SIKI STORE</span></h1>
+      <p class="lead">Layanan bantuan progres rank Mobile Legends dengan proses pemesanan yang jelas, komunikasi terbuka, dan harga yang dikonfirmasi sebelum pengerjaan dimulai.</p>
+      <div class="actions"><a class="btn" href="#form-order">Pesan Layanan →</a><a class="btn secondary" href="#harga">Lihat Daftar Harga</a></div>
+      <div class="trust"><span>✓ Harga dikonfirmasi di awal</span><span>✓ Update progres</span><span>✓ Admin mudah dihubungi</span></div>
+    </div>
+    <aside class="heroCard">
+      <div class="eyebrow">Partner push rank kamu</div>
+      <h2>Fokus ke target rank.</h2>
+      <p>Pilih layanan, sampaikan rank saat ini dan targetmu, lalu tunggu konfirmasi biaya serta estimasi pengerjaan dari admin.</p>
+      <div class="heroStat"><div class="stat"><strong>6+</strong><small>Pilihan layanan</small></div><div class="stat"><strong>Jelas</strong><small>Alur pemesanan</small></div><div class="stat"><strong>Fair</strong><small>Konfirmasi biaya</small></div><div class="stat"><strong>Support</strong><small>Admin via WhatsApp</small></div></div>
+    </aside>
+  </div>
+</section>
+
+<section id="layanan">
+  <div class="wrap">
+    <div class="sectionHead"><div class="eyebrow">Layanan kami</div><h2>Pilih layanan sesuai kebutuhan</h2><p>Detail layanan, ketersediaan, dan estimasi akan dikonfirmasi oleh admin.</p></div>
+    <div class="grid">
+      <article class="card"><div class="cardIcon">♛</div><h3>Joki Rank</h3><p>Bantuan menaikkan rank dari posisi saat ini menuju target yang disepakati.</p></article>
+      <article class="card"><div class="cardIcon">⚔</div><h3>Joki Gendong</h3><p>Main bersama tim/joki untuk membantu mencapai target pertandingan.</p></article>
+      <article class="card"><div class="cardIcon">★</div><h3>Joki Win Streak</h3><p>Permintaan rangkaian kemenangan sesuai jadwal dan kesepakatan.</p></article>
+      <article class="card"><div class="cardIcon">🏆</div><h3>Rank & Bintang</h3><p>Paket berdasarkan jumlah bintang atau target rank yang diinginkan.</p></article>
+      <article class="card"><div class="cardIcon">◈</div><h3>Request Khusus</h3><p>Request role, hero, atau jadwal tertentu dapat dibicarakan terlebih dahulu.</p></article>
+      <article class="card"><div class="cardIcon">盾</div><h3>Konsultasi Rank</h3><p>Tanyakan pilihan paket dan estimasi sebelum menyetujui pemesanan.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="harga">
+  <div class="wrap">
+    <div class="sectionHead"><div class="eyebrow">Daftar harga</div><h2>Harga joki rank</h2><p>Harga dasar per bintang. Pastikan total akhir disetujui sebelum melakukan pembayaran.</p></div>
+    <div class="pricing">
+      <article class="priceCard"><div class="rank">Warrior</div><div class="price">Rp1.000</div><div class="sub">per bintang</div><span class="pill">Harga dasar</span></article>
+      <article class="priceCard"><div class="rank">Elite</div><div class="price">Rp1.000</div><div class="sub">per bintang</div><span class="pill">Harga dasar</span></article>
+      <article class="priceCard"><div class="rank">Master</div><div class="price">Rp1.500</div><div class="sub">per bintang</div><span class="pill">Harga dasar</span></article>
+      <article class="priceCard"><div class="rank">Grand Master</div><div class="price">Rp2.000</div><div class="sub">per bintang</div><span class="pill">Harga dasar</span></article>
+      <article class="priceCard featured"><div class="rank">Epic</div><div class="price">Rp2.500</div><div class="sub">per bintang</div><span class="pill">Harga dasar</span></article>
+      <article class="priceCard"><div class="rank">Legend</div><div class="price">Rp3.000</div><div class="sub">per bintang</div><span class="pill">Harga dasar</span></article>
+      <article class="priceCard"><div class="rank">Mythic</div><div class="price">Rp4.500</div><div class="sub">per bintang</div><span class="pill">Harga dasar</span></article>
+      <article class="priceCard"><div class="rank">Mythic Honor</div><div class="price">Rp5.500</div><div class="sub">per bintang</div><span class="pill">Harga dasar</span></article>
+      <article class="priceCard"><div class="rank">Mythic Glory</div><div class="price">Rp7.000</div><div class="sub">per bintang</div><span class="pill">Harga dasar</span></article>
+      <article class="priceCard"><div class="rank">Mythic Immortal</div><div class="price">Rp9.000</div><div class="sub">per bintang</div><span class="pill">Harga dasar</span></article>
+    </div>
+    <div class="note"><strong>Catatan:</strong> harga di atas adalah harga dasar per bintang. Untuk layanan joki gendong, acuan harga mengikuti daftar rank yang sama; total akhir dikonfirmasi admin sesuai target, durasi, dan kebutuhan tim sebelum order disetujui.</div>
+  </div>
+</section>
+
+<section id="cara-order">
+  <div class="wrap">
+    <div class="sectionHead"><div class="eyebrow">Proses pemesanan</div><h2>Cara order</h2><p>Ikuti langkah berikut agar pesanan tercatat dengan jelas.</p></div>
+    <div class="steps">
+      <article class="step"><h3>Hubungi admin</h3><p>Kirim pesan WhatsApp dan pilih layanan yang dibutuhkan.</p></article>
+      <article class="step"><h3>Kirim detail order</h3><p>Informasikan rank saat ini, target, jumlah bintang, dan jadwal.</p></article>
+      <article class="step"><h3>Konfirmasi biaya</h3><p>Admin mengirim total harga, estimasi, metode bayar, dan ketentuan.</p></article>
+      <article class="step"><h3>Lakukan pembayaran</h3><p>Bayar sesuai instruksi resmi dan simpan bukti transaksi.</p></article>
+      <article class="step"><h3>Proses & selesai</h3><p>Admin memberi update. Setelah selesai, periksa hasil dan konfirmasi.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="pembayaran">
+  <div class="wrap">
+    <div class="sectionHead"><div class="eyebrow">Transaksi</div><h2>Metode pembayaran</h2><p>Metode yang tersedia harus dikonfirmasi kepada admin sebelum transfer.</p></div>
+    <div class="payGrid">
+      <div class="card"><h3>Metode yang dapat ditanyakan</h3><div class="payList"><div class="payItem">DANA<small>E-wallet, jika tersedia</small></div><div class="payItem">OVO<small>E-wallet, jika tersedia</small></div><div class="payItem">GoPay<small>E-wallet, jika tersedia</small></div><div class="payItem">Transfer bank<small>Konfirmasi bank & rekening</small></div></div></div>
+      <div class="card"><h3>Ketentuan pembayaran</h3><p>1. Pastikan nama penerima dan nominal sesuai instruksi admin resmi.</p><p>2. Jangan transfer ke rekening atau nomor yang tidak dikonfirmasi melalui kanal resmi.</p><p>3. Simpan bukti pembayaran dan kirimkan kepada admin.</p><p>4. Jangan membagikan PIN, OTP, atau kata sandi pembayaran kepada siapa pun.</p><p>5. Ketentuan uang muka/pelunasan akan disepakati sebelum order berjalan.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="aturan">
+  <div class="wrap">
+    <div class="sectionHead"><div class="eyebrow">Syarat layanan</div><h2>Aturan & ketentuan</h2><p>Mohon baca sebelum menyetujui pemesanan.</p></div>
+    <div class="rules">
+      <div class="rule"><b>01</b><span>Pelanggan wajib memberikan detail order yang benar, termasuk rank, target, dan jumlah bintang.</span></div>
+      <div class="rule"><b>02</b><span>Harga, estimasi waktu, metode pembayaran, dan ruang lingkup layanan disepakati sebelum pengerjaan.</span></div>
+      <div class="rule"><b>03</b><span>Estimasi waktu dapat berubah karena antrean, kondisi pertandingan, atau kendala teknis; admin akan memberi kabar.</span></div>
+      <div class="rule"><b>04</b><span>Pelanggan tidak boleh mengubah target atau menambah layanan tanpa konfirmasi biaya dan persetujuan baru.</span></div>
+      <div class="rule"><b>05</b><span>Jika layanan memerlukan akses akun, pahami risiko dan ketentuan game. Jangan pernah membagikan OTP atau data pembayaran.</span></div>
+      <div class="rule"><b>06</b><span>SIKI STORE tidak meminta PIN, OTP, atau kata sandi dompet digital maupun rekening.</span></div>
+      <div class="rule"><b>07</b><span>Pembatalan, pengembalian dana, dan kendala harus dibicarakan dengan admin berdasarkan progres pekerjaan serta kesepakatan awal.</span></div>
+      <div class="rule"><b>08</b><span>Pelanggan wajib menyimpan bukti transaksi dan riwayat percakapan sampai order dinyatakan selesai.</span></div>
+      <div class="rule"><b>09</b><span>Dilarang menggunakan layanan untuk penipuan, transaksi ilegal, atau tindakan yang merugikan pihak lain.</span></div>
+      <div class="rule"><b>10</b><span>Dengan melanjutkan order, pelanggan menyatakan telah membaca dan menyetujui ketentuan layanan ini.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="kontak">
+  <div class="wrap">
+    <div class="sectionHead"><div class="eyebrow">Mulai order</div><h2>Hubungi SIKI STORE</h2><p>Isi detail singkat berikut. Tombol akan membuka WhatsApp dengan format pesan otomatis.</p></div>
+    <div class="orderGrid">
+      <aside class="contactPanel"><div class="eyebrow">Customer support</div><h3>Butuh bantuan memilih paket?</h3><p>Hubungi admin untuk menanyakan ketersediaan, harga terbaru, estimasi waktu, dan ketentuan pembayaran.</p><p><strong>WhatsApp Admin</strong><br><span style="color:var(--cyan);font-size:20px;font-weight:900">895-4172-61788</span></p><a class="btn" href="https://wa.me/62895417261788" target="_blank" rel="noopener">Chat Admin WhatsApp ↗</a><p class="tiny">Pastikan nomor ini adalah kanal resmi sebelum mengirim data atau melakukan pembayaran.</p></aside>
+      <form class="form" id="form-order">
+        <div class="formGrid">
+          <div class="field"><label for="nama">Nama / nickname</label><input id="nama" name="nama" placeholder="Nama kamu" required></div>
+          <div class="field"><label for="layananPilihan">Pilih layanan</label><select id="layananPilihan" name="layanan"><option>Joki Rank</option><option>Joki Gendong</option><option>Joki Win Streak</option><option>Request Khusus</option><option>Konsultasi</option></select></div>
+          <div class="field"><label for="idml">ID ML</label><input id="idml" name="idml" placeholder="Masukkan ID akun ML" required></div>
+          <div class="field"><label for="server">Server</label><input id="server" name="server" placeholder="Contoh: 1234" required></div>
+          <div class="field"><label for="rank">Rank awal</label><select id="rank" name="rank"><option>Warrior</option><option>Elite</option><option>Master</option><option>Grand Master</option><option>Epic</option><option>Legend</option><option>Mythic</option><option>Mythic Honor</option><option>Mythic Glory</option><option>Mythic Immortal</option></select></div>
+          <div class="field"><label for="target">Rank tujuan</label><select id="target" name="target"><option>Elite</option><option>Master</option><option>Grand Master</option><option>Epic</option><option>Legend</option><option>Mythic</option><option>Mythic Honor</option><option>Mythic Glory</option><option>Mythic Immortal</option></select></div>
+          <div class="field full"><label for="catatan">Catatan</label><textarea id="catatan" name="catatan" placeholder="Jumlah bintang, role/hero, jadwal, atau permintaan lain"></textarea></div>
+        </div>
+        <button class="btn" type="submit">Kirim Detail ke WhatsApp →</button>
+        <p class="tiny">Pesan akan dibuka di WhatsApp untuk kamu periksa dan kirim sendiri. Order belum dianggap disetujui sebelum admin mengonfirmasi.</p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap footin"><div><strong style="color:white">SIKI STORE</strong><br>Joki MLBB Professional</div><div>Harga transparan • Komunikasi jelas • Layanan sesuai kesepakatan</div><div>© <span id="year"></span> SIKI STORE. All rights reserved.</div></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('form-order').addEventListener('submit', function(e){
+  e.preventDefault();
+  const val = id => document.getElementById(id).value.trim();
+  const nama = val('nama');
+  const layanan = val('layananPilihan');
+  const idml = val('idml');
+  const server = val('server');
+  const rank = val('rank');
+  const target = val('target');
+  const catatan = val('catatan') || '-';
+  const lines = [
+    'Halo Admin SIKI STORE, saya ingin memesan layanan.',
+    '',
+    `Nama/Nickname: ${nama}`,
+    `Layanan: ${layanan}`,
+    `ID ML: ${idml}`,
+    `Server: ${server}`,
+    `Rank awal: ${rank}`,
+    `Rank tujuan: ${target}`,
+    `Catatan: ${catatan}`,
+    '',
+    'Mohon konfirmasi total harga, estimasi pengerjaan, metode pembayaran, dan ketentuan terbaru.'
+  ];
+  window.open('https://wa.me/62895417261788?text=' + encodeURIComponent(lines.join('\\n')), '_blank', 'noopener');
+});
+</script>
+</body>
+</html>
